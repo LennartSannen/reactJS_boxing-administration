@@ -3,8 +3,8 @@ import React, { Component } from "react";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Trainingen from "./Trainingen";
-import Login from "./Login";
+import Trainingen from "./components/Trainingen";
+import Login from "./components/Login";
 import Development from "./components/Development";
 
 class App extends Component {
