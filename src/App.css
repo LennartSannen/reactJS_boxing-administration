@@ -1,0 +1,156 @@
+body > #root > div {
+  height: 100vh;
+}
+.App {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+.mainLogoDiv {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 10%;
+  bottom: 0;
+}
+.mainLogo {
+  position: relative;
+  left: 32%;
+  right: 0;
+  width: 36%;
+}
+.login {
+  width: 400px;
+  height: 600px;
+
+  position: absolute; /*it can be fixed too*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+  /*this to solve "the content will not be cut when the window is smaller than the content": */
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+.trainingen {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+.training {
+  align-items: baseline;
+  max-height: 70%;
+}
+.container {
+  margin: 0;
+  height: 100%;
+}
+.toggle {
+  float: left;
+}
+.row {
+  margin: 0;
+  height: 100%;
+  white-space: nowrap;
+}
+.colMembers {
+  max-height: 30%;
+}
+.col-md-6 {
+  margin: 0;
+  height: 100%;
+}
+.row-custom {
+  max-height: 20%;
+  position: relative;
+}
+.col-custom {
+  max-height: 50%;
+  position: relative;
+  margin-top: 0%;
+}
+.ulMembers {
+  max-height: 85%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.allMembers {
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.memberTitle {
+  font-size: medium;
+  position: relative;
+  left: 8%;
+}
+.trainerOption {
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.memberList {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.listDiv {
+  height: 50%;
+  width: 100%;
+}
+.list-group-item {
+  width: 70%;
+  white-space: nowrap;
+}
+.memberItem {
+  /* border: none; */
+  background: none;
+  transition-duration: 0.4s;
+}
+.memberItem-present:hover {
+  background-color: red; /* Green */
+  color: white;
+}
+.memberItem-absent:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+.alignRight {
+  width: 100%;
+  align-items: right;
+}
+.searchBar {
+  width: 69%;
+  position: relative;
+  left: 8%;
+}
+.searchButton {
+  width: 10%;
+  background-color: white;
+  position: relative;
+}
+.searchLogo {
+  width: 55%;
+}
+.editButton {
+  background-color: white;
+  font-size: 14px;
+  padding: 1px 1px;
+}
+.trainingInfo {
+  position: relative;
+  top: 10%;
+}
+.trainingButtons {
+  position: relative;
+  left: 0%;
+  bottom: -23%;
+}
